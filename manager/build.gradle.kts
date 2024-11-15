@@ -58,7 +58,7 @@ fun getGitDescribe(): String {
 fun getVersionCode(): Int {
     val commitCount = getGitCommitCount()
     val major = 1
-    return major * 10000 + commitCount + 193
+    return major * 10000 + commitCount + 200
 }
 
 fun getVersionName(): String {
